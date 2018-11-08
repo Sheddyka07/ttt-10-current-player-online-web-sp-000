@@ -1,5 +1,5 @@
 def turn_count(board)
-  turn_amount == board.count  
+  turn_amount ==board.count  
   puts turn_amount
 end
   
