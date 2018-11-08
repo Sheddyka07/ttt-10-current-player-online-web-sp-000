@@ -1,7 +1,7 @@
 def turn_count(board)
-  simplified = (board).compact
-  puts (simplified).length
-end
+  counter = 0 
+  board.each do
+    
   
 def current_player(board)
   num_xs = board.count("X")
