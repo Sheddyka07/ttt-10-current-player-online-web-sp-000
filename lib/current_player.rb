@@ -11,7 +11,7 @@ end
 def current_player(turn_count)
   if turn_count == 0  
     puts "X"
-  elsif turn_count % 2 == 0  
+  elsif turn_count.even?  
     puts "X"
   else
     puts "O"
