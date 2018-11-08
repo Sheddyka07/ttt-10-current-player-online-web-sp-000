@@ -4,6 +4,7 @@ def turn_count(board)
   puts "It is #{current_player}'s turn."
   turn_amount += 1 
 end
+end
   
 def current_player(board)
   num_xs = board.count("X")
