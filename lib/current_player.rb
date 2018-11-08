@@ -1,5 +1,7 @@
 def turn_count(board)
-
+  turn_amount = 0 
+  until turn_amount = 9
+  
   
 def current_player(board)
   num_xs = board.count("X")
