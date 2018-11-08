@@ -2,7 +2,11 @@ def turn_count(board)
   num_xs = board.count("X")
   num_os = board.count("O")
   
-  if board 
-  elseif num_xs % 2 == 0 && num_os % 2 == 0 
+  if board.empty? 
     puts "X"
-  elsif num_os % 2 == 0
+  elsif num_xs % 2 == 0 && num_os % 2 == 0 
+    puts "X"
+  else
+    puts "O"
+  end 
+  
