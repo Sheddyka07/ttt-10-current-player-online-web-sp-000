@@ -8,8 +8,8 @@ def turn_count(board)
   return counter
 end
   
-def current_player(board)
-  if board.empty? 
+def current_player(turn_count)
+  if turn_count 
     puts "X"
   elsif num_xs % 2 == 0 && num_os % 2 == 0 
     puts "X"
