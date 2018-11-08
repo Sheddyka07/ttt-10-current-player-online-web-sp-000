@@ -1,7 +1,7 @@
 def turn_count(board)
   turn_amount = board.count  
   until turn_amount = 9
-  puts "It is #{current_player}'s turn."
+  puts turn_amount
   turn_amount += 1 
 end
 end
