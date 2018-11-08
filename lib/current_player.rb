@@ -1,5 +1,5 @@
 def turn_count(board)
-  simplified = board.
+  simplified = board.compact!
   puts board.length
 end
   
