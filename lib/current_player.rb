@@ -1,5 +1,5 @@
 def turn_count(board)
-  turn_amount = board.count  
+  turn_amount == board.count  
   until turn_amount == 9
   puts turn_amount
   turn_amount += 1 
