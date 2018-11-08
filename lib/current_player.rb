@@ -1,6 +1,6 @@
 def turn_count(board)
   simplified = board.compact!
-  puts board.length
+  puts simplified.length
 end
   
 def current_player(board)
