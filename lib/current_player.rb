@@ -3,7 +3,7 @@ def turn_count(board)
   board.each do |slot| 
     if slot =! " "
     counter =+ 1 
-  end
+    end
   end
   return counter
 end
