@@ -1,7 +1,7 @@
 def turn_count(board)
   counter = 0 
-  board.each do
-    |slot| slot == "X" || slot == "O"
+  board.each |slot| do
+    slot == "X" || slot == "O"
     counter =+ 1 
   end
   counter
