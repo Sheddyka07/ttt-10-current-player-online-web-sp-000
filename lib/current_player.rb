@@ -1,4 +1,5 @@
 def turn_count(board)
+  simplified = board.
   puts board.length
 end
   
