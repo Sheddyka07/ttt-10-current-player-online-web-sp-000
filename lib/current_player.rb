@@ -1,2 +1,5 @@
 def turn_count(board)
-  if board.count("X")
+  num_xs = board.count("X")
+  num_os = board.count("O")
+  
+  if num_xs
