@@ -10,11 +10,11 @@ end
   
 def current_player(turn_count)
   if turn_count == 0  
-    puts "X"
+    return "X"
   elsif turn_count.even?  
-    puts "X"
+    return "X"
   else
-    puts "O"
+    return "O"
   end 
 end
   
